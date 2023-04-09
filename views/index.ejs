@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/style.css"> <!--ini bootstrap-->
+    <link rel="stylesheet" href="css/app.css"> <!--ini css sendiri-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<section>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom p-3">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <div class="logo">
+              <img src="images/Logo.png" alt="logo" class="img-fluid">
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#event">Event</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="account">
+              <a class="btn btn-dark me-3" href="#">Login</a>
+              <a class="btn btn-outline-dark" href="#">Sign Up</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <!-----HERO----->
+    <section class="parallax-container">
+      <div class="container">
+        <h2 class="display-3 fw-bold teks">Selamat Datang di Kabupaten Sumedang.</h2>
+        <p class="lead text-light">Kota Sumedang, Tempatnya Budaya dan Alam yang Menawan</p>
+        <a href="#intro" class="btn btn-primary btn-rounded my-3">Learn More</a>
+      </div>
+          <div class="waves" style="background-image:url('https://sumedangkab.go.id/smd/assets/images/bg/pattern/waves.png')">
+          </div>
+    </section>
+
+    <section id="intro">
+      <div class="container my-lg-5 py-lg-5">
+        <div class="row">
+          <div class="col-lg-6">
+              <h2 class="display-3 fw-semibold"><u>Sumedang</u></h2>
+              <p class="lead text-body-emphasis py-2">Sumedang merupakan sebuah kabupaten di Provinsi Jawa Barat, Indonesia. Kabupaten ini terletak sekitar 70 kilometer di sebelah timur kota Bandung, ibu kota Provinsi Jawa Barat. Sumedang memiliki luas wilayah sekitar 1.518,33 kilometer persegi dan memiliki populasi lebih dari 1 juta jiwa.</p>
+              <p class="lead text-body-emphasis">
+              Sebagian besar wilayah Sumedang adalah pegunungan, kecuali di sebagian kecil wilayah utara berupa dataran rendah. Gunung Tampomas (1.684 mdpl), merupakan dataran tertinggi di kabupaten ini yang berada di utara Sumedang.
+              </p>
+              <br>
+              <div class="selanjutnya">
+                <a href="#event" class="btn btn-outline-primary">
+                  <medium class="text-muted">Selanjutnya</medium>
+                </a>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <img src="images/peta_sumedang.png" alt="peta" class="img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="event">
+      <h2 class="display-3 fw-bold event-judul" style="text-align: center;">Di Sumedang ada apa aja sih?</h2>
+      <div class="container">
+        <div class="card bg-white">
+          <div class="card-body">
+            <div id="carouselExampleSlidesOnly" class="carousel-slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#Wisata">
+                  <img src="images/Wisata.jpg" class="d-block w-100" alt="Wisata" style="height: 700px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-5 fw-bold">Tempat Wisata</h5>
+                    <p class="text-bg-dark">Kebun Teh Marganwindu - Curug Cipongkor - Jatinangor National Park</p>
+                  </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#Kuliner">
+                    <img src="images/kuliner.jpg" class="d-block w-100" alt="Kuliner" style="height: 700px;">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="display-5 fw-bold">Kuliner</h5>
+                      <p class="text-bg-dark">Tahu Sumedang - Ubi Cilembu - Opak Ketan</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#Kebudayaan">
+                    <img src="images/kebudayaan.jpg" class="d-block w-100" alt="Kuliner" style="height: 700px;">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="display-5 fw-bold">Kebudayaan</h5>
+                      <p class="text-bg-dark">Kuda Renggong - Seni Pertunjukan Gembyung</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="event-bottom">
+        <br><br><br>
+      </section>
+    </section>
+
+  <section id="Main">
+    <section id="Wisata">
+      <div class="container">
+        <h2 class="display-3 fw-bold">Tempat Wisata</h2>
+        <div class="deskripsi">
+          <p class="fw-medium">
+            Jika anda sedang berlibur ke kabupaten sumedang, anda bisa mengunjungi beberapa Tempat Wisata di bawah ini:
+          </p>
+          <div class="card bg-dark-subtle">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/kebunteg.png" alt="kebunteh" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Kebun Teh Marganwindu</h4>
+                    </div>
+                  </div>
+                  <p>Di perbukitan Margawindu terdapat perkebunan teh yang dikenal dengan nama perkebunan Teh Marganwindu. Perkebunan teh ini termasuk wilayah Desa Citengah, dan ketika mengunjungi perkebunan ini akan melewati kawasan wisata Cibingbin dan Curug Cigorobog. Sekalian saja, selain berlibur ke perkebunan teh bisa sekaligus mencoba suasana wisata air Cibingbin dan curug Cigorobog.</p>
+                  <p>
+                    Untuk mengunjungi perkebunan teh Margawindu ini bisa melalui jalan besar yang bisa ditempuh sekitar 30 sampai 45 menit. Arahnya, kalau dari pusat kota Sumedang ke arah selatan. Untuk mencapainya, pengunjung bisa menggunakan kendaraan roda dua ataupun roda empat. Hanya saja jalan aspalna sudah jelek, banyak bolong-bolongnya. Sepanjang jalan menuju ke tempat tujuan akan tersaji pemandangan yang</p>
+                </div>
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/curug.jpg" alt="curug" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Curug Cipongkor</h4>
+                    </div>
+                  </div>
+                  <p>
+                    Curug Cipongkor merupakan salah satu curug yang ada di Kabupaten Sumedang. Curug ini termasuk curug tipe tunggal, artinya hanya ada satu air terjun yang ada di Curug Cipongkor ini. Aliran air curugnya sendiri tidak terlalu besar, namun tinggi. Letaknya cukup tersembunyi karena berada di sebuah ceruk tebing batu cadas yang menjulang tinggi.
+                  </p>
+                </div>
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/jnp2.jpg" alt="jnp" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Jatinangor National Park</h4>
+                    </div>
+                  </div>
+                  <p>Jatinangor National Flower Park atau Jans Park adalah destinasi wisata di Sumedang yang baru diresmikan pada pertengahan November 2022 lalu.
+                  Objek wisata Jatinangor National Flower Park berlokasi di Desa Cileles, Kecamatan Jatinangor, Kabupaten Sumedang, Jawa Barat.
+                  Lokasi Jatinangor National Flower Park berdekatan dengan Universitas Padjajaran (Unpad).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+    <section id="Kuliner">
+      <div class="container">
+        <h2 class="display-3 fw-bold">Kuliner</h2>
+        <div class="deskripsi">
+          <p class="fw-medium">
+            Jika anda sedang berlibur atau sedang mampir ke kabupaten sumedang, tak lengkap rasanya jika tidak mencicipi Kuliner khas Kabupaten Sumedang. berikut listnya:
+          </p>
+          <div class="card bg-dark-subtle">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/tahu1.jpg" alt="Tahu" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Tahu Sumedang</h4>
+                    </div>
+                  </div>
+                  <p>Pasti sudah sangat didak asing lagi dengan nama makanan yang satu ini, ya tahu sumedang. tahu ini memiliki ciri khas dibandingkan tahu pada umumnya.</p>
+                  <p>
+                    Ciri Khas Tahu Sumedang ini mempunyai bentuk kotak berukuran 3-4 cm persegi. Tekstur luarnya garing dan renyah namun tetap lembut dalamnya saat di gigit. Tahu Sumedang paling cocok di cocol dengan saos atau sambal khas di temani lontong untuk menjadi teman perjalanan. </p>
+                </div>
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/ubi.jpg" alt="Ubi" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Ubi Cilembu</h4>
+                    </div>
+                  </div>
+                  <p>Ubi Cilembu lebih istimewa daripada umbi biasanya karena umbi ini bila dipanggang akan mengeluarkan sejenis cairan lengket gula madu yang manis rasanya. Karena itu, umbi Cilembu disebut juga dengan umbi si madu. Bila umbi pada umumnya juga manis, rasa manis umbi Cilembu ini lebih manis dan lengket dengan gula madu. Rasa manis ini membuat tenaga ekstra bagi orang yang mengkonsumsinya.</p>
+                  <p>
+                    Selain rasa yang sangat manis, warna daging ubi juga cukup menarik di mana kulit dan daging ubi berwarna krem kemerahan diwaktu mentah dan berwarna kuning bila dimasak dan bentuk ubi panjang berurat. Bentuknya panjang dan kulitnya tak mulus karena ada urat-urat panjang yang menonjol. Ketika dipanggang, dibakar, atau dioven, dari kulitnya yang berwarna gading akan muncul lelehan-lelahan seperti madu.</p>
+                </div>
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/opak.jpg" alt="opak" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Opak Cimanggung</h4>
+                    </div>
+                  </div>
+                  <p>Opak Ketan Cimanggung merupakan salah satu makanan khas Sumedang yang dikenal sebagai camilan para Bangsawan Sumedang kala itu.</p>
+                  <p>
+                    Opak yang biasa disajikan di istana tersebut dipesan dari daerah Cimanggung. Opak Ketan Cimanggung ini terbuat dari beras ketan yang ditanak, kemudian ditumbuk hingga halus lalu diberi santan kelapa. Perbandingan antara beras dan air santan adalah satu banding satu yang artinya untuk satu liter beras ketan membutuhkan satu buah kelapa. Opak Ketan Cimanggung berbeda dengan opak di daerah-daerah lainnya. Perbedaan ini terletak pada kualitas bahan yang digunakan, dimana Opak Cimanggung menggunakan beras ketan pilihan terbaik yang tidak bercampur dengan beras biasa. Bahkan tumbukan beras untuk membuat Opak Cimanggung ini sangat halus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+    <section id="Kebudayaan">
+      <div class="container">
+        <h2 class="display-3 fw-bold">Kebudayaan</h2>
+        <div class="deskripsi">
+          <p class="fw-medium">
+            selain berlibur dan mencicipi kuliner khas Sumedang, anda bisa mencari tau tentang kebudayaan yang ada di kabupaten sumedang. berikut macam-macam kebudayaannya:
+          </p>
+          <div class="card bg-dark-subtle">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/kuda.jpg" alt="renggong" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Kuda Renggong</h4>
+                    </div>
+                  </div>
+                  <p>Kuda Renggong merupakan seni pertunjukkan tradisional yg sngt popurel di kabupaten sumedang. Atraksi ini berupa pertunjukkan seekor kuda. Kuda dapat melakukan gerakan menari Dan berjalan mengikuti hentakan musik tradisional sunda, yaitu kendang pencak.</p>
+                  <p>
+                    Pertunjukkan kuda Renggong di sebut kuda pencak karena seekor kuda di latih untuk melakukan gerakan seperti berkelahi melawan pelatihnya dgn gaya pencak silat. Pertunjukkan kuda ronggeng dapat di raksikan pda acara khitanan. Biasanya sang anak di arak mengelilingi kota di atas punggung kuda Renggong.anak-anak tersebut di ikuti oleh anggota keluarga atau kerabat dekat yg ikut menari di depanya. Kemudian,mereka berkeliling Dari satu sessions keep season lainnya.</p>
+                </div>
+                <div class="col-lg-5">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <img src="images/gembyung.jpg" alt="seni" width="475px" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card bg-white">
+                    <div class="card-body">
+                      <h4 class="fw-bold">Seni pertunjukan Gembyung</h4>
+                    </div>
+                  </div>
+                  <p>Seni Gembyung merupakan salah satu kesenian peninggalan para wali di Cirebon. Seni ini merupakan pengembangan dari Kesenian Terbang yang hidup di lingkungan pesantren. Seperti halnya kesenian terbang, Gembyung digunakan oleh para wali yang dalam hal ini Sunan Bonang dan Sunan Kalijaga sebagai media untuk menyebarkan agama Islam di Cirebon. Kesenian Gembyung ini biasa dipertunjukkan pada upacara-upacara kegiatan Agama Islam seperti peringatan Maulid Nabi, Rajaban dan Kegiatan 1 Syuro yang digelar di sekitar tempat ibadah.</p>
+                    <p>
+                    Gembyung merupakan jenis musik ensambel yang di dominasi oleh alat musik yang disebut waditra. Meskipun demikian, di lapangan ditemukan beberapa kesenian Gembyung yang tidak menggunakan waditra tarompet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+    <br><br><br>
+
+    <footer>
+      <p class="fw-light">©2023 | Dibuat Oleh Ridho Alamsyah - Muh. Yoga Fauzan</p>
+    </footer>
+
+    <script src="modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      const myCarouselElement = document.querySelector('#myCarousel')
+      const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 1000,
+        touch: false
+      });
+      const slides = document.querySelectorAll('.mySlides');
+      let currentSlide = 0;
+      
+      const slideInterval = setInterval(nextSlide, 950); // waktu dalam milidetik antara slide
+
+      function nextSlide() {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+      }
+
+    </script>
+</body>
+</html>
